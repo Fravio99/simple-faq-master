@@ -15,67 +15,151 @@
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+      
+  body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafa;
+  color: #1a1a1a;
+}
 
-      body {
-        height: 100vh;
-      }
+.faq-container {
+  max-width: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-      .author-info a {
-        text-decoration: none;
-      }
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.faq-section h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.faq-section{
+  
+}
+
+
+.faq-section p{
+  text-align: justify;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  line-height: 1.9;
+}
+
+
+.faq-section ol,
+.faq-section ul {
+  padding-left: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.9;
+}
+
+.section {
+  width: 1000PX;
+  height: 600PX;
+  padding-top: 45px;
+  margin-left: 250px;
+  background-color: rgb(247, 247, 247);
+
+}
+
+
+a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgb(234, 234, 234);
+  margin: 40px 0;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+
+
     </style>
   </head>
   <body>
     
-    <div class="header">
-      <h1>Frequently Asked Questions</h1>
-      <p>Browse through the most frequently asked questions</p>
-    </div>
-  
-    <div class="section">
-      <div class="section-1">
-      <h2>How can I track my order?</h2>
-      <p>You can track your order using the following steps</p>
-      <ul>
-        <li>Go to the Order  <a href="#">Tracking page.</a></li>
-        <li>Enter your order number and email address.</li>
-        <li>Click on the Track Order button to view the current status of your shipment.</li>
-      </ul>
+    <div class="faq-container">
 
-      <p>If you encounter any issues, please visit our <a href="#">Help Center.</a> </p>
-    </div>
-  
-    <div class="section-2">
-      <h2>What is your return policy?</h2>
-      <p>We offer a 30-day return policy on most items. Here are some key points</p>
+      <div class="faq-header">
+        <h1>Frequently Asked Questions</h1>
+        <p class="subtitle">Browse through the most frequently asked questions</p>
+      </div>
+      
+      <div class="section">
+          
+          <div class="faq-section">
+            <h2>How can I track my order?</h2>
+            <p>You can track your order using the following steps:</p>
+            <ol>
+              <li>Go to the Order <a href="#">Tracking page</a>.</li>
+              <li>Enter your order number and email address.</li>
+              <li>Click on the Track Order button to view the current status of your shipment.</li>
+            </ol>
+            <p>If you encounter any issues, please visit our <a href="#">Help Center</a>.</p>
+          </div>
 
-      <ul>
-        <li>Items must be in original condition : Unworn, unused, and unwashed.</li>
-        <li>Include original packaging and tags: All items should be returned with their original packaging and tags.</li>
-        <li>Proof of purchase : A receipt or proof of purchase is required.</li>
-      </ul>
-      <p>For more detailed information, read our full <a href="#">Return Policy.</a> </p>
-    </div>
-    </div>
-    
+          <hr>
+
+          <div class="faq-section">
+            <h2>What is your return policy?</h2>
+            <p>We offer a 30-day return policy on most items. Here are some key points:</p>
+            <ul>
+              <li><strong>Items must be in original condition:</strong> Unworn, unused, and unwashed.</li>
+              <li><strong>Include original packaging and tags:</strong> All items should be returned with their original packaging and tags.</li>
+              <li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.</li>
+            </ul>
+            <p>For more detailed information, read our full <a href="#">Return Policy</a>.</p>
+          </div>
+          <br><br>
+          <div class="author-info">
+        Coded by <a href="#">Your Name Here</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+
+      </div>
+      
+  </div>
+
   
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
   </body>
 </html>
